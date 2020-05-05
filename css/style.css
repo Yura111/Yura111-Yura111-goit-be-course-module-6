@@ -63,8 +63,7 @@ input[type='radio'].visually-hidden {
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    /*font-family: 'Kaushan Script', cursive;
-    font-family: 'Roboto', sans-serif;*/
+      
     color: rgb(153, 153, 153);
     font-size: 15px;
     font-weight: 400;
@@ -113,15 +112,13 @@ bottom: -14px;
 position: absolute;
 opacity: 0;
 visibility: hidden;
-transform: opacity 0.5s linear;
+transition: opacity 0.5s linear;
 }
 .link:hover::after{
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
-.link:hover{
-    color:#f38181;
-}
+
 .services{
   padding-bottom: 92px;
 }
@@ -261,7 +258,7 @@ box-shadow: 10px 10px 0 rgb(149, 225, 211);
    }  
    .foto_list:hover .foto_box{
      opacity: 1;
-     visibility: hidden;
+     visibility: visible;
    }
    .social{
      display: flex;
@@ -274,12 +271,13 @@ box-shadow: 10px 10px 0 rgb(149, 225, 211);
      margin-right: 2px;
    }
    .social_link{
+     display: block;
      width: 54px;
      height: 54px;
      background-color: #fce38a;
      background-repeat: no-repeat;
      background-position: center;
-     transform: all 0.5s linear;  
+       transition: all 0.5s linear;
    }
    .social_facebook{
      background-image: url(../img/1.png);
@@ -299,7 +297,25 @@ box-shadow: 10px 10px 0 rgb(149, 225, 211);
   .padding-bottom{
     padding-bottom: 85px;
   }
-
+  .nime {
+    font-size: 14px;
+       color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    font-weight: 400;
+  margin-bottom: 15px; 
+  }
+  .Graphic_Design {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif; 
+    color: rgb(153, 153, 153);
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.6;
+    text-align: center;
+    
+  }
+  
+  
 
 
 
