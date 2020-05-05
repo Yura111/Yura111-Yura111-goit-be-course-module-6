@@ -25,7 +25,7 @@ img {
   height: auto; 
 } 
 
-button,
+
 input,
 optgroup,
 select,
@@ -304,17 +304,31 @@ box-shadow: 10px 10px 0 rgb(149, 225, 211);
     font-weight: 400;
   margin-bottom: 15px; 
   }
-  .Graphic_Design {
+  .position {
     font-size: 15px;
     font-family: 'Roboto', sans-serif; 
     color: rgb(153, 153, 153);
     font-weight: 300;
     font-style: italic;
     line-height: 1.6;
-    text-align: center;
-    
+    text-align: center;    
   }
-  
+  .footer_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-from{
+height: 40px;
+  }
+ .contact{
+   border: none;
+   background-color: #95e1d3;
+   color: #fff;
+      height: 40px;
+      width: 150px;
+ }
+
   
 
 
